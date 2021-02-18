@@ -19,7 +19,7 @@ export default function contact() {
 
               <h3>Reach out to us</h3>
               <p>We respond in less than 24hours</p>
-              <Form.Group controlId="formBasicEmail">
+              <Form.Group controlId="formBasicEmail" name="Email">
                 <Form.Control
                   type="email"
                   placeholder="Enter email"
@@ -33,14 +33,17 @@ export default function contact() {
               </Form.Group>
               <Form.Group>
                 <Form.Control as="select" name="product-type">
-                  <option>Volic Midi</option>
-                  <option>Volic Mini</option>
-                  <option>Volic Maxi</option>
-                  <option>Volic Wipes</option>
+                  <option name="Midi">Volic Midi</option>
+                  <option name="Mini">Volic Mini</option>
+                  <option name="Maxi">Volic Maxi</option>
+                  <option name="Wipes">Volic Wipes</option>
                 </Form.Control>
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Control as="textarea" rows={3} required />
+              <Form.Group
+                controlId="exampleForm.ControlTextarea1"
+                name="Message"
+              >
+                <Form.Control as="textarea" rows={3} required name="Message" />
               </Form.Group>
 
               <Button variant="primary" type="submit">
