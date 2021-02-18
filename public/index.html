@@ -32,13 +32,13 @@
   </head>
   <body>
    <form name="volic-contact" netlify netlify-honeypot="bot-field" hidden>
-    <Form.Group controlId="formBasicEmail">
-      <Form.Control type="email" size="lg" required name="emailid" />
+    <Form.Group controlId="formBasicEmail" name="emailid">
+      <Form.Control type="email" size="lg" required  />
       <Form.Text className="text-muted">
         We'll never share your email with anyone else.
       </Form.Text>
     </Form.Group>
-    <Form.Group>
+    <Form.Group name="Size-select">
       <Form.Control as="select">
         <option name="Midi">Volic Midi</option>
         <option name="Mini">Volic Mini</option>
@@ -46,8 +46,8 @@
         <option name="Wipes">Volic Wipes</option>
       </Form.Control>
     </Form.Group>
-    <Form.Group controlId="exampleForm.ControlTextarea1">
-      <Form.Control as="textarea" rows={3} required name="Message" />
+    <Form.Group controlId="exampleForm.ControlTextarea1" required name="Message">
+      <Form.Control as="textarea" rows={3}  />
     </Form.Group>
    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>

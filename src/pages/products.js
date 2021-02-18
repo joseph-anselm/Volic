@@ -29,7 +29,7 @@ const Products = () => {
                     <p>
                       <b>
                         Volic Mini Diapers is gentle on your baby, designed with
-                        uniqueness.
+                        uniqueness and quality.
                       </b>
                     </p>
                     <p>52 pieces Quality Diapers</p>
@@ -37,7 +37,7 @@ const Products = () => {
                   </Card.Text>
                   <Link to="/contact">
                     <Button variant="outline-primary">
-                      <span>View Other Branches</span>
+                      <span>Order Request</span>
                     </Button>
                   </Link>
                 </Card.Body>
@@ -60,7 +60,7 @@ const Products = () => {
                   </Card.Text>
                   <Link to="/contact">
                     <Button variant="outline-primary">
-                      <span>View Other Branches</span>
+                      <span>Order request</span>
                     </Button>
                   </Link>
                 </Card.Body>
@@ -83,7 +83,7 @@ const Products = () => {
                   </Card.Text>
                   <Link to="/contact">
                     <Button variant="outline-primary">
-                      <span>View Other Branches</span>
+                      <span>Order Request</span>
                     </Button>
                   </Link>
                 </Card.Body>
@@ -106,7 +106,7 @@ const Products = () => {
                   </Card.Text>
                   <Link to="/contact">
                     <Button variant="outline-primary">
-                      <span>View Other Branches</span>
+                      <span>Order Request</span>
                     </Button>
                   </Link>
                 </Card.Body>

@@ -14,29 +14,23 @@ export default function contact() {
       <Container>
         <Row>
           <Col sm>
-            <Form
-              data-netlify="true"
-              name="volic-contact"
-              method="POST"
-              action="/"
-            >
+            <Form data-netlify="true" name="volic-contact" method="POST">
               <input type="hidden" name="form-name" value="volic-contact" />
 
               <h3>Reach out to us</h3>
               <p>We respond in less than 24hours</p>
-              <Form.Group controlId="formBasicEmail">
+              <Form.Group controlId="formBasicEmail" name="emailid">
                 <Form.Control
                   type="email"
                   placeholder="Enter email"
                   size="lg"
                   required
-                  name="emailid"
                 />
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else.
                 </Form.Text>
               </Form.Group>
-              <Form.Group>
+              <Form.Group name="select-products">
                 <Form.Control as="select">
                   <option name="Midi">Volic Midi</option>
                   <option name="Mini">Volic Mini</option>
@@ -44,8 +38,11 @@ export default function contact() {
                   <option name="Wipes">Volic Wipes</option>
                 </Form.Control>
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Control as="textarea" rows={3} required name="Message" />
+              <Form.Group
+                controlId="exampleForm.ControlTextarea1"
+                name="Message"
+              >
+                <Form.Control as="textarea" rows={3} required />
               </Form.Group>
 
               <Button variant="primary" type="submit">
