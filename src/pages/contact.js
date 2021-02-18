@@ -25,26 +25,23 @@ export default function contact() {
                   placeholder="Enter email"
                   size="lg"
                   required
-                  name="Email"
                 />
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else.
                 </Form.Text>
               </Form.Group>
               <Form.Group>
-                <Form.Control as="select" name="product-type">
+                <Form.Control as="select">
                   <option name="Midi">Volic Midi</option>
                   <option name="Mini">Volic Mini</option>
                   <option name="Maxi">Volic Maxi</option>
                   <option name="Wipes">Volic Wipes</option>
                 </Form.Control>
               </Form.Group>
-              <Form.Group
-                controlId="exampleForm.ControlTextarea1"
-                name="Message"
-              >
+              <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Control as="textarea" rows={3} required name="Message" />
               </Form.Group>
+              <div data-netlify-recaptcha></div>
 
               <Button variant="primary" type="submit">
                 Submit
