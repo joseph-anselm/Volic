@@ -31,7 +31,25 @@
     <title>Volic Baby Diaper and Wipes</title>
   </head>
   <body>
-   
+   <form name="volic-contact" netlify netlify-honeypot="bot-field" hidden>
+    <Form.Group controlId="formBasicEmail">
+      <Form.Control type="email" size="lg" required name="emailid" />
+      <Form.Text className="text-muted">
+        We'll never share your email with anyone else.
+      </Form.Text>
+    </Form.Group>
+    <Form.Group>
+      <Form.Control as="select">
+        <option name="Midi">Volic Midi</option>
+        <option name="Mini">Volic Mini</option>
+        <option name="Maxi">Volic Maxi</option>
+        <option name="Wipes">Volic Wipes</option>
+      </Form.Control>
+    </Form.Group>
+    <Form.Group controlId="exampleForm.ControlTextarea1">
+      <Form.Control as="textarea" rows={3} required name="Message" />
+    </Form.Group>
+   </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

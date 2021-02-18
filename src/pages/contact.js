@@ -14,7 +14,12 @@ export default function contact() {
       <Container>
         <Row>
           <Col sm>
-            <Form data-netlify="true" name="volic-contact" method="post">
+            <Form
+              data-netlify="true"
+              name="volic-contact"
+              method="POST"
+              action="/"
+            >
               <input type="hidden" name="form-name" value="volic-contact" />
 
               <h3>Reach out to us</h3>
@@ -42,7 +47,6 @@ export default function contact() {
               <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Control as="textarea" rows={3} required name="Message" />
               </Form.Group>
-              <div data-netlify-recaptcha></div>
 
               <Button variant="primary" type="submit">
                 Submit
