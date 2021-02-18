@@ -162,6 +162,13 @@ p {
 .row > .locations {
   margin: 60px 20px;
 }
+form {
+  width: 100%;
+  padding: 0;
+}
+.form-control {
+  margin-bottom: 0.2rem !important;
+}
 
 /* footer Components */
 .footer .container-fluid:nth-child(odd) {

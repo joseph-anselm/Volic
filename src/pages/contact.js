@@ -14,41 +14,52 @@ export default function contact() {
       <Container>
         <Row>
           <Col sm>
-            <Form data-netlify="true" name="volic-contact" method="POST">
-              <input type="hidden" name="form-name" value="volic-contact" />
-
-              <h3>Reach out to us</h3>
-              <p>We respond in less than 24hours</p>
-              <Form.Group controlId="formBasicEmail" name="emailid">
-                <Form.Control
-                  type="email"
-                  placeholder="Enter email"
-                  size="lg"
-                  required
-                />
-                <Form.Text className="text-muted">
-                  We'll never share your email with anyone else.
-                </Form.Text>
-              </Form.Group>
-              <Form.Group name="select-products">
-                <Form.Control as="select">
-                  <option name="Midi">Volic Midi</option>
-                  <option name="Mini">Volic Mini</option>
-                  <option name="Maxi">Volic Maxi</option>
-                  <option name="Wipes">Volic Wipes</option>
-                </Form.Control>
-              </Form.Group>
-              <Form.Group
-                controlId="exampleForm.ControlTextarea1"
-                name="Message"
+            <div>
+              <Form
+                data-netlify="true"
+                name="volic-contact"
+                method="POST"
+                className="form-control-sm"
               >
-                <Form.Control as="textarea" rows={3} required />
-              </Form.Group>
+                <input type="hidden" name="form-name" value="volic-contact" />
+                <h5>Reach out to us</h5>
+                <div className="form-group">
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                    size
+                    required
+                    name="mail"
+                  />
+                </div>
+                <div className="form-group">
+                  <label for="exampleFormControlSelect1">Product option</label>
+                  <select
+                    className="form-control"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option name="mini">Volic Mini</option>
+                    <option name="midi">Volic Midi </option>
+                    <option name="maxi">Volic Maxi</option>
+                  </select>
+                </div>
 
-              <Button variant="primary" type="submit">
-                Submit
-              </Button>
-            </Form>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    name="subject"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">
+                  Send Now
+                </button>
+              </Form>
+            </div>
           </Col>
           <Col sm>
             <Carousel className="contact-carousel">

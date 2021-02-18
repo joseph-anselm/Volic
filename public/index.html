@@ -31,24 +31,23 @@
     <title>Volic Baby Diaper and Wipes</title>
   </head>
   <body>
-   <form name="volic-contact" netlify netlify-honeypot="bot-field" hidden>
-    <Form.Group controlId="formBasicEmail" name="emailid">
-      <Form.Control type="email" size="lg" required  />
-      <Form.Text className="text-muted">
-        We'll never share your email with anyone else.
-      </Form.Text>
-    </Form.Group>
-    <Form.Group name="Size-select">
-      <Form.Control as="select">
-        <option name="Midi">Volic Midi</option>
-        <option name="Mini">Volic Mini</option>
-        <option name="Maxi">Volic Maxi</option>
-        <option name="Wipes">Volic Wipes</option>
-      </Form.Control>
-    </Form.Group>
-    <Form.Group controlId="exampleForm.ControlTextarea1" required name="Message">
-      <Form.Control as="textarea" rows={3}  />
-    </Form.Group>
+   <form name="volic-contact" netlify netlify-honeypot="bot-field" action="/contact" hidden>
+    <div className="form-group">
+      <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" size
+        required name="mail" />
+    </div>
+    <div className="form-group">
+      <label for="exampleFormControlSelect1">Product option</label>
+      <select className="form-control" id="exampleFormControlSelect1">
+        <option name="mini">Volic Mini</option>
+        <option name="midi">Volic Midi </option>
+        <option name="maxi">Volic Maxi</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="subject" required></textarea>
+    </div>
    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
