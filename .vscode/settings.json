@@ -1,0 +1,8 @@
+{
+    "eslint.runtime": ""
+}
+{
+   "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+   }
+}
