@@ -14,17 +14,18 @@ export default function contact() {
       <Container>
         <Row>
           <Col sm>
-            <Form data-netlify="true" name="volic-contact" method="POST">
+            <Form data-netlify="true" name="volic-contact" method="post">
               <input type="hidden" name="form-name" value="volic-contact" />
 
               <h3>Reach out to us</h3>
               <p>We respond in less than 24hours</p>
-              <Form.Group controlId="formBasicEmail" name="Email">
+              <Form.Group controlId="formBasicEmail">
                 <Form.Control
                   type="email"
                   placeholder="Enter email"
                   size="lg"
                   required
+                  name="emailid"
                 />
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else.
