@@ -91,7 +91,7 @@ const footer = () => {
                 </p>
                 <p>Customer Service Line: +234 809 212 4097</p>
                 <p> Inquires Line: +234 904 938 1538</p>
-                <p> info@volicgroup.com</p>
+                <p> info@volic.com.ng</p>
                 <Link to="/contact">
                   <Button variant="outline-primary">
                     <span>View Other Branches</span>

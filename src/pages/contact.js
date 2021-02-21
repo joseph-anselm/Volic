@@ -39,6 +39,7 @@ export default function contact() {
                   <select
                     className="form-control"
                     id="exampleFormControlSelect1"
+                    name="products"
                   >
                     <option name="mini">Volic Mini</option>
                     <option name="midi">Volic Midi </option>
