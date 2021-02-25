@@ -70,7 +70,7 @@ const footer = () => {
                     <a href="">FAQ</a>
                   </li>
                   <li>
-                    <a href="htps://webmail.volic.com.ng">Check mail</a>
+                    <a href="https://webmail.volic.com.ng">Check mail</a>
                   </li>
                   <li>
                     <a href="">Privacy Policy</a>
