@@ -63,7 +63,9 @@ const home = () => {
                       src="./images/Volic-baby-Diapers.jpg"
                     />
                     <Card.Body>
-                      <Card.Title>Volic Mini Diapers</Card.Title>
+                      <Card.Title>
+                        <h1>Volic Baby Diapers | Mini</h1>
+                      </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
                         <Button variant="outline-primary">
@@ -80,7 +82,9 @@ const home = () => {
                       src="./images/Volic-Midi-Diapers.jpg"
                     />
                     <Card.Body>
-                      <Card.Title>Volic Midi Diapers</Card.Title>
+                      <Card.Title>
+                        <h1>Volic Baby Diapers | Midi</h1>
+                      </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
                         <Button variant="outline-primary">
@@ -97,7 +101,9 @@ const home = () => {
                       src="./images/Volic-Maxi-Diapers.jpg"
                     />
                     <Card.Body>
-                      <Card.Title>Volic Maxi Diaper</Card.Title>
+                      <Card.Title>
+                        <h1>Volic Baby Diapers | Maxi </h1>{" "}
+                      </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
                         <Button variant="outline-primary">
@@ -111,7 +117,9 @@ const home = () => {
                   <Card style={{ width: "15rem" }}>
                     <Card.Img variant="top" src="./images/Volic-wipes.jpg" />
                     <Card.Body>
-                      <Card.Title>Volic Wipes</Card.Title>
+                      <Card.Title>
+                        <h1>Volic Baby Diapers | wipes</h1>
+                      </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
                         <Button variant="outline-primary">
