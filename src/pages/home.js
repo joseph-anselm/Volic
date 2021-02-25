@@ -64,7 +64,7 @@ const home = () => {
                     />
                     <Card.Body>
                       <Card.Title>
-                        <h1>Volic Baby Diapers | Mini</h1>
+                        <h2>Volic Baby Diapers | Mini</h2>
                       </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
@@ -83,7 +83,7 @@ const home = () => {
                     />
                     <Card.Body>
                       <Card.Title>
-                        <h1>Volic Baby Diapers | Midi</h1>
+                        <h2>Volic Baby Diapers | Midi</h2>
                       </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
@@ -102,7 +102,7 @@ const home = () => {
                     />
                     <Card.Body>
                       <Card.Title>
-                        <h1>Volic Baby Diapers | Maxi </h1>{" "}
+                        <h2>Volic Baby Diapers | Maxi </h2>{" "}
                       </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
@@ -118,7 +118,7 @@ const home = () => {
                     <Card.Img variant="top" src="./images/Volic-wipes.jpg" />
                     <Card.Body>
                       <Card.Title>
-                        <h1>Volic Baby Diapers | wipes</h1>
+                        <h2>Volic Baby Diapers | wipes</h2>
                       </Card.Title>
                       <Card.Text></Card.Text>
                       <Link to="/products">
