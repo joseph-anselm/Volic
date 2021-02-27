@@ -93,12 +93,12 @@ const About = () => {
         <Row>
           <p claasName="about-text">
             <b>
-              " Since inception for over 10 years, we have decided to be
-              commited to ensuring production of quality Baby Diapers. Our
+              Since inception for over 10 years, we have decided to stay
+              committed to ensuring production of quality Baby Diapers. Our
               multiple award winning brands distributes Predominantly in Nigeria
-              and several African Countries. Our cores values has been a guiding
-              light keeping us ahead in our continous effort towards ensuring a
-              safe, clean and always fresh atmosphere for your baby.
+              and several African Countries. Our cores values have been a
+              guiding light keeping us ahead in our continous effort towards
+              ensuring a safe, clean and always fresh atmosphere for your baby.
             </b>
           </p>
         </Row>
