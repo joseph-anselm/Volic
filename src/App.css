@@ -335,6 +335,6 @@ form {
 @media screen (max-width: 767px) {
   .carousel-caption {
     position: absolute;
-    bottom: 50% !important;
+    bottom: 50%;
   }
 }
