@@ -335,6 +335,10 @@ form {
 @media screen (max-width: 767px) {
   .carousel-caption {
     position: absolute;
-    bottom: 50%;
+    bottom: 60% !important;
+  }
+
+  .carousel-indicators li {
+    margin-bottom: 20px;
   }
 }
