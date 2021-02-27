@@ -336,9 +336,10 @@ form {
   .carousel-caption {
     position: absolute;
     bottom: 60% !important;
+    color: red;
   }
 
   .carousel-indicators li {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 }

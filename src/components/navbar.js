@@ -72,14 +72,16 @@ export default class NavigationBar extends Component {
               }`}
               href="#1"
             >
-              <Navbar.Brand href="#home">
-                <img
-                  alt="Volic Logo"
-                  src="./images/volic-baby-logo.png"
-                  width="180"
-                  height="50"
-                  className="d-inline-block align-top"
-                />{" "}
+              <Navbar.Brand>
+                <Link className="nav-link" to="/">
+                  <img
+                    alt="Volic Logo"
+                    src="./images/volic-baby-logo.png"
+                    width="180"
+                    height="50"
+                    className="d-inline-block align-top"
+                  />{" "}
+                </Link>
               </Navbar.Brand>
             </a>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
