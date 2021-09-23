@@ -37,7 +37,7 @@ function App() {
               <>
                 <Header
                   imgsrc={img1}
-                  subtitle={"Our SHort story tells it all"}
+                  subtitle={"Our Short story tells it all"}
                 />
                 <About />
                 <Distribution />

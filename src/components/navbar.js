@@ -77,8 +77,8 @@ export default class NavigationBar extends Component {
                   <img
                     alt="Volic Logo"
                     src="./images/volic-baby-logo.png"
-                    width="180"
-                    height="50"
+                    width="160"
+                    height="40"
                     className="d-inline-block align-top"
                   />{" "}
                 </Link>
